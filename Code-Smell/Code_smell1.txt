@@ -1,0 +1,8 @@
+Issues in the original code:
+The Message class violates the Single Responsibility Principle (SRP): it handles both data storage and printing logic.
+
+Redundant logic in printSummary() and printDetails().
+
+No abstraction or interface used.
+
+MessagingService tightly couples message printing logic.

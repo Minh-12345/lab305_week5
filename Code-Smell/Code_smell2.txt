@@ -1,0 +1,8 @@
+Issues in the original code:
+The Property class has a data clump (too many related constructor arguments).
+
+Financial Report is doing too much: data processing, classification, and printing.
+
+Repeated logic and lack of abstraction.
+
+Violates SRP and makes future extensions harder.
